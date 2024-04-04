@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --swiper-pagination-color: #e77824;
+}
+
+body {
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    background: url(../images/download.svg);
+}   
+
+html {
+    scroll-behavior: smooth;
+}    
+
+::-webkit-scrollbar {
+    width: 4px;
+}    
+::-webkit-scrollbar-track {
+    background-color: #353f49;
+}    
+::-webkit-scrollbar-thumb {
+    background-color: #e77824;
+}    
+
+* {
+    box-sizing: border-box;
+}
+
+
+.container {
+    padding: 0.5rem 1rem;
+    margin: 0 auto;
+}    
+@media(min-width: 1280px) {
+    .container {
+        padding: 0.5rem 10rem;
+    }    
+}    
+
+nav {
+    background: url(../images/download.svg);
+}
+.nav-active {
+    color: #e77824;
+}    
